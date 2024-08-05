@@ -31,3 +31,4 @@ $APPLICATION->SetTitle("404 Not Found");?>
 </div>
 
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?> 
+<??>
