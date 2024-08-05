@@ -1,0 +1,1 @@
+<a href="<?=SITE_DIR?>"><span>Дельта</span>-Тур</a>

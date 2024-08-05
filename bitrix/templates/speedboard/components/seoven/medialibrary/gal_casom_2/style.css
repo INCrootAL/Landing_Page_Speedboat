@@ -1,0 +1,78 @@
+.thumb_link img{
+max-height: 110px;
+max-width: 150px;
+display: table;
+margin: 0 auto;
+border-radius: 10px;
+border: 1px solid #00796B;
+box-shadow: 2px 5px 7px 0px rgba(0, 0, 0, 0.11);
+}
+
+.thumb_link,.caption {
+display: table;
+margin: 0 auto;
+}
+.seoven_gallery_thumbs li:hover {
+    transform: scale(1.2);
+}
+.seoven_gallery_thumbs li
+{
+display: block;
+max-width: 170px;
+max-height: 160px;
+float: left;
+list-style: none;
+border-radius: 20px;
+margin-right: 8px;
+margin-bottom: 15px;
+transition: 0.8s;
+}
+
+.workarea .seoven_gallery_element::before{
+
+content:none;
+}
+seoven_gallery_element{
+padding: 0;
+color:#333333;
+}
+.seoven_gallery_image{
+height: 110px;
+padding-top: 10px;
+}
+.element_bottom_box {
+padding: 8px 10px;
+text-align: center;
+display: none;
+}
+.caption .blue{
+margin: 5px 0 5px 0;
+}
+.workarea .caption h3 {
+font-size: 18px;
+}
+.caption h3{
+font-size:18px;
+}
+.caption {
+font-size:13px;
+color:#333333;
+}
+.seoven_gallery_element a{
+text-decoration: none;
+}
+.seoven_gallery_element a:visited{
+color:#333333;
+}
+
+.seoven_gallery_thumbs{
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.galblink{
+text-decoration:none;
+}

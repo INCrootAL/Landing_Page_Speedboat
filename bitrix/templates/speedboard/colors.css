@@ -1,0 +1,211 @@
+@font-face {
+  font-family: 'Beer money';
+  src: local('beer money'), 
+       local('beermoney'), 
+       url('/bitrix/templates/partner_teal/css/_fonts_new/beermoney.woff2') format('woff2'), 
+       url('/bitrix/templates/partner_teal/css/_fonts_new/beermoney.woff') format('woff'), 
+       url('/bitrix/templates/partner_teal/css/_fonts_new/beermoney.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  color: #00796B;
+}
+a:hover, a:focus {
+  color: #002c27;
+}
+
+.weight700 {
+  font-weight: 700;
+}
+
+.unavailable {
+  background-color: #00796B;
+  text-decoration: line-through!important;
+  color:#fff!important;
+  text-decoration-color: black!important;
+  pointer-events: none;
+}
+
+.unavailable:hover {
+  background-color: #8f8f8f!important;
+  text-decoration: line-through!important;
+}
+
+.popup-window {
+  border: 1px solid #00796B;
+  border-radius: 12px;
+}
+
+.popup-window .bx-calendar-cell:hover {
+  background-color: #00796B;
+  color:#fff;
+}
+
+.text-muted.d-none.d-sm-block img.calendar-icon-hover {
+  margin: 0;
+  margin-left: 1px;
+  border: 1px solid #00796B;
+  background-color: #00796B;
+  border-radius: 6px;
+}
+
+.button {
+  background-color: #009688;
+}
+.button:hover {
+  background-color: #00b09f;
+}
+
+.cols-promo__title_advantages {
+  border-bottom: 3px solid #B2DFDB;
+}
+
+.contact-card {
+  background-color: #00796B;
+}
+
+.social-buttons {
+  border-top: 3px solid #FF9800;
+  background-color: #B2DFDB;
+}
+.social-buttons__item:hover svg {
+  fill: #6ac1b9;
+}
+
+.button_call-to-act {
+  background-color: #FF9800;
+}
+.button_call-to-act:hover {
+  background-color: #ffa21a;
+}
+
+.easy-header__logo a {
+  color: #009688;
+  font-family:'Beer money';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 125%;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;               /* ширина scrollbar */
+}
+body::-webkit-scrollbar-track {
+  background: #00796B;        /* цвет дорожки */
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #d6bd6b;    /* цвет плашки */
+  border-radius: 20px;       /* закругления плашки */
+  border: 3px solid #00796B;  /* padding вокруг плашки */
+}
+
+.fish_tour {
+  margin-bottom: 65px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  color: #d6bd6b;
+  font-family: 'Beer money';
+  text-align: center;
+}
+
+.easy-header__logo a span {
+  color: #009688;
+  font-family:'Beer money';
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media (min-width: 992px) {
+  .navbar__nav a:before {
+    background: #FF9800;
+  }
+}
+
+.button_fs-present-display {
+  background-color: #FF9800;
+}
+.button_fs-present-display:hover {
+  background-color: #ffad33;
+}
+
+.gallery-isotope__filter a:hover {
+  background-color: #FF9800;
+}
+.gallery-isotope__filter a.active {
+  background-color: #FF9800;
+}
+.gallery-isotope__img:before {
+  background-color: #00796B;
+}
+
+.section_inv {
+  background-color: #00796B;
+}
+.section_bg:before {
+  background-color: #00796B;
+}
+
+.line-carousel .owl-page span {
+  border: 1px solid #00796B;
+}
+.line-carousel .owl-page.active span {
+  background-color: #00796B;
+}
+
+.reviews-carousel__img {
+  border: 2px solid #FF9800;
+}
+
+.tabs_faq__li.active a:after {
+  background-color: #FF9800;
+}
+
+.tabs_faq__li a {
+  background-color: #00796B;
+}
+
+.prices__title_accent {
+  background-color: #00796B;
+  box-shadow: 0 0 0 1px #00796B;
+}
+
+.timeline-vertical__row:hover .timeline-vertical__info:before {
+  background-color: #009688;
+}
+.timeline-vertical__info:before {
+  background-color: #FF9800;
+}
+.timeline-vertical__date span {
+  background-color: #00796B;
+}
+
+.promo-list__icon {
+  color: #FF9800;
+}
+
+.loader_el {
+  background-color: #00796B;
+}
+
+.article blockquote {
+  border-left: 4px solid #00796B;
+}
+
+.footer {
+  background-color: #00796B;
+}
+
+.gallery-box__inner:before {
+  background-color: #00796B;
+}
+
+.page-info__back a:hover {
+  color: #ffad33;
+}
